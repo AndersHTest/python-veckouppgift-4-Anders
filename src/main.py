@@ -1,6 +1,7 @@
 from Forsta_kod import *
 from Ova_pa_funktioner_moduler import *
 from Spelet_21 import *
+from Pokerhand import *
 
 ## Uppgift 1a
 ## Jag tror att 'test' kommer at skrivas ut.
@@ -192,5 +193,12 @@ print("____\n")
 print("3, version 3:\n")
 
 spelet_21_v3()
+
+print("____\n")
+
+## Uppgift 4, version 1
+print("4, version 1:\n")
+
+print(poker_hand())
 
 print("____\n")

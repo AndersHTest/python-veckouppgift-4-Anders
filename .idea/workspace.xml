@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9765095-ee89-4c20-823e-5a4789937df8" name="Changes" comment="Uppgift 2 klar.">
-      <change afterPath="$PROJECT_DIR$/src/Spelet_21.py" afterDir="false" />
+    <list default="true" id="d9765095-ee89-4c20-823e-5a4789937df8" name="Changes" comment="Uppgift 3 klar.">
+      <change afterPath="$PROJECT_DIR$/src/Pokerhand.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +47,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.Forsta_kod.executor": "Run",
+    "Python.Pokerhand.executor": "Run",
     "Python.Spelet_21.executor": "Run",
     "Python.main.executor": "Run",
     "Python.test.executor": "Run",
@@ -82,7 +84,7 @@
       <updated>1780427081899</updated>
       <workItem from="1780427082907" duration="15034000" />
       <workItem from="1780442937798" duration="14876000" />
-      <workItem from="1780491564516" duration="7496000" />
+      <workItem from="1780491564516" duration="14219000" />
     </task>
     <task id="LOCAL−00001" summary="Uppdaterat .gitignore.&#10;#stavfel">
       <option name="closed" value="true" />
@@ -98,7 +100,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1780451558870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Uppgift 3 klar.">
+      <option name="closed" value="true" />
+      <created>1780500307162</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1780500307162</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +116,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Uppdaterat .gitignore.&#10;#stavfel" />
     <MESSAGE value="Uppgift 2 klar." />
-    <option name="LAST_COMMIT_MESSAGE" value="Uppgift 2 klar." />
+    <MESSAGE value="Uppgift 3 klar." />
+    <option name="LAST_COMMIT_MESSAGE" value="Uppgift 3 klar." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -123,7 +133,8 @@
     <SUITE FILE_PATH="coverage/Vecka_23$Forsta_kod.coverage" NAME="Forsta_kod Coverage Results" MODIFIED="1780438249982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/Vecka_23$test.coverage" NAME="test Coverage Results" MODIFIED="1780447316646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/Vecka_23$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1780499776758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/Vecka_23$main.coverage" NAME="main Coverage Results" MODIFIED="1780500022962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/Vecka_23$Spelet_21.coverage" NAME="Spelet_21 Coverage Results" MODIFIED="1780498195064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Vecka_23$main.coverage" NAME="main Coverage Results" MODIFIED="1780506727978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Vecka_23$Pokerhand.coverage" NAME="Pokerhand Coverage Results" MODIFIED="1780506693757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/Vecka_23$Spelet_21.coverage" NAME="Spelet_21 Coverage Results" MODIFIED="1780500225603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
