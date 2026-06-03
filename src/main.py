@@ -1,5 +1,5 @@
 from Forsta_kod import *
-
+from Ova_pa_funktioner_moduler import *
 
 ## Uppgift 1a
 ## Jag tror att 'test' kommer at skrivas ut.
@@ -103,5 +103,70 @@ print("1i:\n")
 find_min([10, 3, -4, -11])
 find_min([])
 find_min([100])
+
+print("____\n")
+
+
+## Uppgift 2.1
+print("2.1:\n")
+
+my_function("David")
+
+print("____\n")
+
+## Uppgift 2.2a
+print("2.2a:\n")
+
+eko("hej")
+
+print("____\n")
+
+## Uppgift 2.2b
+print("2.2b:\n")
+
+eko2("hej", 3)
+
+print("____\n")
+
+## Uppgift 2.3
+print("2.3:\n")
+
+loop_x_times(5)
+
+print("____\n")
+
+## Uppgift 2.4
+print("2.4:\n")
+
+last([1,2,3])
+
+print("____\n")
+
+
+## Uppgift 2.5
+print("2.5:\n")
+
+cut_edges([1, 2, 3, 4])
+
+print("____\n")
+
+## Uppgift 2.6
+print("2.6:\n")
+
+print(increase(1))
+
+print("____\n")
+
+## Uppgift 2.7
+print("2.7:\n")
+
+print(average(4, 8))
+
+print("____\n")
+
+## Uppgift 2.8
+print("2.8:\n")
+
+pretty_print(["a", "b", 3.14])
 
 print("____\n")
