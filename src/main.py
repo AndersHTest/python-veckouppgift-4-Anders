@@ -1,5 +1,6 @@
 from Forsta_kod import *
 from Ova_pa_funktioner_moduler import *
+from Spelet_21 import *
 
 ## Uppgift 1a
 ## Jag tror att 'test' kommer at skrivas ut.
@@ -168,5 +169,28 @@ print("____\n")
 print("2.8:\n")
 
 pretty_print(["a", "b", 3.14])
+
+print("____\n")
+
+
+## Uppgift 3 version 1
+print("3, version 1:\n")
+
+print(spelet_21_v1())
+
+print("____\n")
+
+
+## Uppgift 3 version 2
+print("3, version 2:\n")
+
+print(spelet_21_v2())
+
+print("____\n")
+
+## Uppgift 3 version 3
+print("3, version 3:\n")
+
+spelet_21_v3()
 
 print("____\n")
