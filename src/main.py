@@ -238,8 +238,8 @@ print("____\n")
 print("5, version 3:\n")
 
 t.clearscreen()
-turtle_text("blue")
 t.hideturtle()
+turtle_text("green")
 t.mainloop()
 
 print("____\n")
