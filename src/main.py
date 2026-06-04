@@ -1,5 +1,3 @@
-from pygments.lexers import blueprint
-
 from Forsta_kod import *
 from Ova_pa_funktioner_moduler import *
 from Spelet_21 import *
