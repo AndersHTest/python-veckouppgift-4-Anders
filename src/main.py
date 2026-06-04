@@ -1,7 +1,10 @@
+from pygments.lexers import blueprint
+
 from Forsta_kod import *
 from Ova_pa_funktioner_moduler import *
 from Spelet_21 import *
 from Pokerhand import *
+from Turtle import *
 
 ## Uppgift 1a
 ## Jag tror att 'test' kommer at skrivas ut.
@@ -200,5 +203,43 @@ print("____\n")
 print("4, version 1:\n")
 
 print(poker_hand())
+
+print("____\n")
+
+## Uppgift 5, version 1
+
+print("5, version 1:\n")
+
+turtle_kvadrat(100)
+
+print("____\n")
+
+## Uppgift 5, version 2
+
+print("5, version 2:\n")
+
+t.clearscreen()
+turtle_poc(105, 100, "red", 2)
+
+print("____\n")
+
+## Uppgift 5, version 3
+
+print("5, version 3:\n")
+
+t.clearscreen()
+turtle_circle(36, 30, -10, "blue")
+
+
+print("____\n")
+
+## Uppgift 5, version 4
+
+print("5, version 3:\n")
+
+t.clearscreen()
+turtle_text("blue")
+t.hideturtle()
+t.mainloop()
 
 print("____\n")
