@@ -200,7 +200,7 @@ print("____\n")
 ## Uppgift 4, version 1
 print("4, version 1:\n")
 
-print(your_hand())
+your_hand()
 
 print("____\n")
 
