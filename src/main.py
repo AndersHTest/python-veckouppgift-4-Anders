@@ -238,6 +238,7 @@ print("5, version 4:\n")
 t.clearscreen()
 t.hideturtle()
 turtle_text("green")
-t.mainloop()
+
+t.exitonclick()
 
 print("____\n")
