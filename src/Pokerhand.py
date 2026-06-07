@@ -17,6 +17,9 @@ def poker_hand():
 
 your_hand = poker_hand()
 
-print(f"Din hand: \n")
-for i in your_hand:
-    print(i)
+def your_hand():
+    your_hand = poker_hand()
+
+    print(f"Din hand: \n")
+    for i in your_hand:
+        print(i)

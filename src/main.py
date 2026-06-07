@@ -200,7 +200,7 @@ print("____\n")
 ## Uppgift 4, version 1
 print("4, version 1:\n")
 
-print(poker_hand())
+print(your_hand())
 
 print("____\n")
 
@@ -233,7 +233,7 @@ print("____\n")
 
 ## Uppgift 5, version 4
 
-print("5, version 3:\n")
+print("5, version 4:\n")
 
 t.clearscreen()
 t.hideturtle()
