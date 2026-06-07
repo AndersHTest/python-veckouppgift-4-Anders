@@ -15,11 +15,10 @@ def poker_hand():
 
     return cards
 
-your_hand = poker_hand()
 
 def your_hand():
-    your_hand = poker_hand()
+    your_hand_1 = poker_hand()
 
     print(f"Din hand: \n")
-    for i in your_hand:
+    for i in your_hand_1:
         print(i)
