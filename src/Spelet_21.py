@@ -65,7 +65,7 @@ def spelet_21_v3():
             if narmsta_vardet == 0:
                 print(f"Det blev lika! Båda var {limit - abs(sum(din_hand))} ifrån 21.")
             elif narmsta_vardet == sum(din_hand) and narmsta_vardet != sum(datorns_hand):
-                print(f"Du vann! Du var {diff} ifrån 21.")
+                print(f"Du vann! Du var {abs(diff)} ifrån 21.")
             else:
-                print(f"Datorn vann! Datorn var {diff} ifrån 21.")
+                print(f"Datorn vann! Datorn var {abs(diff)} ifrån 21.")
             x = False
