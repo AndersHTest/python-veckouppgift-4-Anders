@@ -40,21 +40,23 @@ def hitta_narmsta_vardet(ditt_varde, datorns_varde, target):
 
 
 def spelet_21_v3():
-    kort = spelet_21_v2()
-    kort1 = spelet_21_v2()
+
     ta_kort = input(f"Tryck 1 för att ta ett kort eller 0 för att stanna: ")
     din_hand = []
     datorns_hand = []
     x = True
 
     while x:
+
         if ta_kort == "1":
+            kort = spelet_21_v2()
+            kort1 = spelet_21_v2()
             din_hand.append(kort)
             datorns_hand.append(kort1)
             ta_kort = input(f"Du har nu {sum(din_hand)} på handen.\nTryck 1 för att fortsätta eller 0 för att avsluta: ")
-            if ta_kort == "1":
-                din_hand.append(kort)
-                datorns_hand.append(kort1)
+      #      if ta_kort == "1":
+       #         din_hand.append(kort)
+        #        datorns_hand.append(kort1)
 
         elif ta_kort == "0":
             limit = 21
